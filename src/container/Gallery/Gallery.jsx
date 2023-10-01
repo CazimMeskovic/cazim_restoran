@@ -27,7 +27,7 @@ const Gallery = () => {
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans text-gray-400  mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         <br></br> Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-        <button type="button" className="custom__button mt-4">View More</button>
+        <button onClick={()=>window.open('https://www.pinterest.com/ssanellamemic/slike-bosne-i-hercegovine/')}  type="button" className="custom__button mt-4">View More</button>
       </div>
       <div className="flex-1 flex flex-row sm:max-w-[65%] max-w[80%] relative">
         <div className="flex flex-row w-max overflow-x-scroll -ms-overflow-style-none scrollbar-none" ref={scrollRef}>

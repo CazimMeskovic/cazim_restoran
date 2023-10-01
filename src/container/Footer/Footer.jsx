@@ -33,10 +33,10 @@ const Footer = () => (
         <div className='flex justify-center'>
           <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         </div>
-        <div className="text-white flex flex-row justify-center gap-5 mt-5 ">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+        <div className="text-white flex flex-row justify-center gap-5 mt-5 cursor-pointer ">
+          <FiFacebook onClick={()=>window.open('https://www.facebook.com/')} />
+          <FiTwitter onClick={()=>window.open('https://www.twitter.com/')}/>
+          <FiInstagram onClick={()=>window.open('https://www.instagram.com/')}/>
 
         </div>
       </div>

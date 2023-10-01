@@ -20,7 +20,7 @@ const FindUs = () => (
         <p className='p__opensans mt-5'>Mon - Fri: 10:00 am - 02:00 am</p>
         <p className='p__opensans mt-5'>Sat - Sun: 10:00 am - 03:00 am</p>
 
-        <button className='custom__button mt-6'>Visit Us</button>
+        <button onClick={()=>window.open('https://www.tripadvisor.com/Restaurants-g294450-zfp58-Sarajevo_Sarajevo_Canton_Federation_of_Bosnia_and_Herzegovina.html')}  className='custom__button mt-6'>Visit Us</button>
 
       </div>
 
