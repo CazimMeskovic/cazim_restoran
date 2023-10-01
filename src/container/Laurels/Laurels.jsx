@@ -13,7 +13,7 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
 );
 
 const Laurels = () => (
-  <div id='awards' className='app__bg flex ss:flex-row flex-col  w-full h-full min-w-[600px]'>
+  <div id='awards' className='app__bg flex ss:flex-row flex-col  w-[100%] h-full '>
     <div>
     <img  src={images.logo} alt='logo' className='w-[146px] h-[146px] pt-10 pl-10' />
     </div>

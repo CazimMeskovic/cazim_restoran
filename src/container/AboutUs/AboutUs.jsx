@@ -5,7 +5,8 @@ import { images } from '../../constants';
 
 const AboutUs = () => (
 
-  <div id='about' className='app__bg flex justify-center items-center w-full h-[100%] min-w-[600px] pt-20 pb-20 relative'>
+  <div id='about' className='app__bg flex justify-center items-center w-[100%] h-[100%]
+    pt-20 pb-20 relative'>
 
     <div className='flex  justify-center items-center absolute '>
       <img src={`${images.G}`} className='w-[391px] h-[415] z-0 inset-0 ' />

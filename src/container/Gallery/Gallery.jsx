@@ -21,7 +21,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="flex md:flex-row flex-col app__bg min-w-[600px] w-full h-full p-16 pt-20 pb-20">
+    <div className="flex md:flex-row flex-col app__bg  w-[100%] h-full p-16 pt-20 pb-20">
       <div className="flex-1 flex justify-center items-start flex-col max-w-[500px]  pr-8">
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>

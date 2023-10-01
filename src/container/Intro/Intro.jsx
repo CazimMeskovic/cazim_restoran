@@ -10,7 +10,7 @@ const Intro = () => {
   const vidRef = React.useRef();
 
   return (
-    <div className=" min-w-[600px] h-full relative">
+    <div className=" w-[100%] h-full relative">
       <video
         ref={vidRef}
         src={meal}
